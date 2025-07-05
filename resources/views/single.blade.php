@@ -493,8 +493,8 @@
 						<h3>Contact Us</h3>
 					</div>
 					<div class="footer-text mt-4">
-						<p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
-						<p class="my-2">Phone : +12 534894364</p>
+						<p>Address : Thimi, Kathmandu</p>
+						<p class="my-2">Phone : +9842456789</p>
 						<p>Email : <a href="mailto:info@example.com">info@example.com</a></p>
 					</div>
 					<div class="footer-title mt-4 pt-md-2">

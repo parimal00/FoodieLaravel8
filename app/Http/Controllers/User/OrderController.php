@@ -41,7 +41,7 @@ class OrderController extends Controller
         // //place order from carts
         try {
             DB::transaction(function () use ($orders, $cart_ids) {
-                // auth()->user()->placeOrder($orders, $cart_ids);
+                auth()->user()->placeOrder($orders, $cart_ids);
             });
         } catch (Exception $e) {
             return back()->with('error', 'Opps!! Error Occorred! Try again!');
