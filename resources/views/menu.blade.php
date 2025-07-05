@@ -23,14 +23,14 @@
                     <h3 class="w3ls-title mb-3"><span>{{ $category->name }}</span></h3>
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10">
-                   
                         @foreach ($category->items as $item)
                             <div class="gallery-demo"
+                                style="width:300px;height:300px"
                                 onclick="showModal('{{ $item->name }}','{{ $item->price_per_unit }}','{{ $item->discount }}','{{ $item->getFirstMediaUrl('item_image') }}','{{ $item->id }}')">
                                 <a href="#gal1">
-                                    <img src="{{ $item->getFirstMediaUrl('item_image') }}" alt=" "
+                                    <img style="width: 100%;" src="{{ asset($item->getFirstMediaUrl('item_image')) }}" alt=" "
                                         class="img-fluid h-48" />
-                                    <h4 class="p-mask">{{ $item->name }} - <span>{{ $item->price_per_unit }}</span></h4>
+                                    <h4 class="p-mask">{{ $item->name }} :  <span>Rs {{ $item->price_per_unit }}</span></h4>
                                 </a>
                             </div>
                         @endforeach
@@ -77,9 +77,9 @@
             <img style="width:100%;height:200px" class="img-fluid " src="${image_url}" alt="">
             <div class="flex flex-column items-center">
               
-            <h4 class="p-mask"> ${name}- <span>${price}</span></h4>
-            <h4 class="p-mask"> Discount- <span>${discount}</span></h4>
-            <h4 class="p-mask"> Total- <span>${price-discount}</span></h4>
+            <h4 class="p-mask"> ${name}  <span> Rs. ${price}</span></h4>
+            <h4 class="p-mask"> Discount- <span>Rs. ${discount}</span></h4>
+            <h4 class="p-mask"> Total- <span>Rs. ${price-discount}</span></h4>
 
             <h4 class="p-mask"> Quantity- <span> <input type="number" placeholder="quantity" name="quantity"/></span></h4>
             </div>

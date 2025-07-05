@@ -35,7 +35,9 @@ Route::get('test',function(){
     ]);
 });
 
-Route::view('/', 'index');
+// Route::view('/', 'index');
+Route::get('/', [MenuController::class, 'index'])->name('index');
+
 Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact')->name('contact');
 Route::get('menus', [MenuController::class, 'index'])->name('menus.index');

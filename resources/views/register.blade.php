@@ -81,11 +81,7 @@
                         </a>
                     </h2>
                     <!-- //logo -->
-                    <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">Sed ut perspiciatis unde omnis iste natus errorhjhsit lupt
-                        atem
-                        accursit lupt atem accu
-                        dfdsa
-                        ntium doloremque laudan tium accu santium dolore.</p>
+                    <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">The sizzling aroma of freshly grilled vegetables filled the kitchen as the chef added a pinch of herbs for flavor</p>
                     <!-- social icons -->
                     <ul class="top-right-info">
                         <li>
@@ -119,10 +115,10 @@
                         <h3>Contact Us</h3>
                     </div>
                     <div class="footer-text mt-4">
-                        <p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
-                        <p class="my-2">Phone : +12 534894364</p>
-                        <p>Email : <a href="mailto:info@example.com">info@example.com</a></p>
-                    </div>
+						<p>Address : Thimi, Kathmandu</p>
+						<p class="my-2">Phone : +9842456789</p>
+						<p>Email : <a href="mailto:info@example.com">info@example.com</a></p>
+					</div>
                     <div class="footer-title mt-4 pt-md-2">
                         <h3>Payment Method</h3>
                     </div>

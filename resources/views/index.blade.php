@@ -10,8 +10,7 @@
                         <div class="banner-info_agile_w3ls">
                             <h5>Only Fresh Burgers</h5>
                             <h3 class="text-da mb-4">Flame <span>Grilled Burger</span> </h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium</p>
+                            <p>The sizzling aroma of freshly grilled vegetables filled the kitchen as the chef added a pinch of herbs for flavor</p>
                             <a href="{{route('about')}}" class="button-w3ls active mt-5">Read More
                                 <span class="fa fa-caret-right ml-1" aria-hidden="true"></span>
                             </a>
