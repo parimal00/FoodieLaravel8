@@ -119,6 +119,9 @@
                                         <a href="{{ route('user.login') }}"
                                             class="btn login-button-2 text-uppercase text-wh">
                                             <span class="fa fa-sign-in mr-2"></span>Login</a>
+                                        <a href="{{ route('user.register') }}"
+                                            class="btn ml-2 register-button text-uppercase text-wh">
+                                            <span class="fa fa-sign-in mr-2"></span>Register</a>
                                     @else
                                         <form action="{{ route('logout') }}" method="POST">@csrf<button
                                                 class="bg-green-400 py-2 px-3 rounded text-white">Logout</button></form>
