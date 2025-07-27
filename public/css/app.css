@@ -11989,3 +11989,9 @@ video {
     gap: 2.5rem;
   }
 }
+
+
+.register-button {
+  background-color: #ff4d4d;
+  color: #fff;
+}
