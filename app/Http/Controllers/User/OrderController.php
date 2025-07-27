@@ -49,8 +49,7 @@ class OrderController extends Controller
         OrderedPlacedEvent::dispatch($orders);
         //event to send notifications to admins
        // Jack::dispatch($orders);
-
-        return redirect('/')->with('success', 'Order Placed Successfully');
+       return back()->with('success', 'Order Placed Successfully');
     }
 
     private function prepareOrder($carts)
